@@ -24,7 +24,7 @@ def say(language)
 
   def add(first, second)
     #puts first, second (we don't really need this puts method)
-    return first + second #if we change the puts method here to return, then wevare returning this value so that it's available but it's not displaying anywhere unless we tell it to in the add method call below by calling puts add(10,5)
+    return first + second #if we change the puts method here to return, then we are returning this value so that it's available but it's not displaying anywhere unless we tell it to in the add method call below by calling puts add(10,5)
     end
 
     puts add(10,5)
@@ -35,3 +35,26 @@ def subtract(first, second)
     first - second
 end
 puts subtract(10,5)
+
+number = 9
+puts number
+number = subtract(number, 1)
+puts number
+number = subtract(number, 1)
+puts number
+
+#Challenge
+#Define a method called three that always returns the number 3. It doesn't need any arguments.
+#We just want to see that you know how to return a value. 
+#Do the same for a method of five that always returns the number 5.
+
+def three()
+  3
+end
+
+def five()
+  5
+end
+puts three
+puts five
+
