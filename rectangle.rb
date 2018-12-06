@@ -33,16 +33,17 @@ def area(length, width)
 /
 
 #correct solution
-#what I did wrong was I did not assign a variable to the method calculations, i.e. 'a' and 'p'
-#because I need a way to return that value
+#what I did wrong on the first try was my call to the methods was incorrect. I called the methods
+#but then did not provide any arguments at the same time I called the puts method.
+#I should've taken the return values of area and perimeter and passed those to the puts method.
+#Because I called the puts method on a different line, there were no values passed.
+#This makes total sense.
   def area(length, width)
-    a = length * width
-    return a
+     length * width
   end
   
   def perimeter(length, width)
-    p = 2 * (length + width) 
-    return p
+    2 * (length + width) 
   end
   
   puts area(10, 20)
