@@ -58,3 +58,9 @@ end
 puts three
 puts five
 
+#NOTE:
+#A method's return value is the value it returns to the code that called it. The "puts" method 
+#may print a string to a terminal, but it RETURNS "nil", an empty value!
+
+#In "def divide(dividend, divisor)", "dividend" and "divisor" are parameters.
+#In divide(10, 5), 10 and 5 are arguments
