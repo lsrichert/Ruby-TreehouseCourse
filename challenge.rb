@@ -34,3 +34,5 @@ puts 'When you include \t in a double-quoted string in Ruby, it looks like this:
 puts "before\tafter"
 puts 'When you include \n in a double-quoted string in Ruby, it looks like this:'
 puts "before\nafter"
+puts 'When you include \"" in a double-quoted string in Ruby, it looks like this:'
+puts "before \"after\""
